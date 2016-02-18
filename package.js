@@ -7,7 +7,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.addAssets(['logo.png','prompt-bg.png','x.png'], 'client');
+  api.addAssets(['logo.png','prompt-bg.png','x.png','bar-bg.png'], 'client');
   api.addFiles([
     "permissionbar-latest.js",
     "permissionbar.css"
